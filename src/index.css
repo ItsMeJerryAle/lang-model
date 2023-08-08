@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+:root {
+    --font-family: 'Inter', sans-serif;
+
+    --color-bg: #040C18;
+    --color-footer: #031B34;
+    --color-blog: #042C54;
+    --color-text: #81AFDD;
+    --color-subtext: #FF8A71;
+
+    --gradient-text: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+
+    --gradient-bar: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+}
+
