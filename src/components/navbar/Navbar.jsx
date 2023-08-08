@@ -6,7 +6,7 @@ import logo from '../../assets/lang-logo.png';
 const Menu = () => (
   <>
     <p> <a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is GPT3?</a></p>
+    <p><a href="#wgpt3">What is a Language Model?</a></p>
     <p><a href="#possibility">Open AI</a></p>
     <p><a href="#features">Case Studies</a></p>
     <p><a href="#blog">Library</a></p>
@@ -45,7 +45,7 @@ const Navbar = () => {
                 <p>Sign in</p>
                 <button type="button">Sign up</button>
               </div>
-
+          
             </div>
           </div>
         )
