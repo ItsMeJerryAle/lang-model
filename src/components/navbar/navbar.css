@@ -78,7 +78,7 @@
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
-    background: radial-gradient(circle at 15% 31%, rgba(100, 65, 165, 1) 0%, rgba(42, 8, 69, 1) 100%);
+    background: #32194d;
     padding: 2rem;
     position: absolute;
     top: 40px;

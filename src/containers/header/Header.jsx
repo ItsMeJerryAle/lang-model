@@ -11,20 +11,19 @@ const Header = () => {
           Explore beyond the wonders of a Language Model
         </h1>
         <p>
-        Probabilistic model of a natural language that can generate probabilities of a series of words, based on text corpora in one or multiple languages it was trained on.
+          Probabilistic model of a natural language that can generate probabilities of a series of words, based on text corpora in one or multiple languages it was trained on.
         </p>
         <div className="gpt3__header-content__input">
-          <input type="email" placeholder='Your email address'/>
+          <input type="email" placeholder='Your email address' />
           <button type="button">Lets Start</button>
         </div>
         <div className="gpt3__header-content__people">
           <img src={people} alt="People" />
           <p>6,900 users are interested</p>
         </div>
-
-        <div className="gpt3__header-image">
-          <img src={ai} alt="AI" />
-        </div>
+      </div>
+      <div className="gpt3__header-image">
+        <img src={ai} alt="AI" />
       </div>
     </div>
   )
