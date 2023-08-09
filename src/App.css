@@ -16,7 +16,7 @@ a {
 
 .gradient__bg {
     /* global 92%+ browsers support */
-    background: radial-gradient(circle at 2% 5%, rgba(100, 65, 165, 1) 0%, #200c4a 100%);
+    background: radial-gradient(circle at 10% 30%, rgba(100, 65, 165, 1) 0%, rgba(32, 12, 74, 1) 31%);
 }
 
 .gradient__text {
@@ -77,4 +77,59 @@ a {
         padding: 4rem 2rem;
     }
   }
-         
+  
+
+  
+.background {
+  -webkit-animation: pulse 5s infinite;
+  animation: pulse 5s infinite;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.square {
+  border: 10px dashed rgba(100, 65, 165, 1);
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.sq2{
+  animation: move1 180s infinite;
+  animation-timing-function: linear;
+  width: 800px;
+  height: 800px;
+}
+
+@keyframes move1 {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0.5;
+  }
+  
+  50% {
+    width: 1000px;
+    height: 1000px;
+  }
+  
+  100% {
+     transform: rotate(1000deg);
+    opacity: 1;
+  }
+  }
+
+.sq3 {
+  width: 500px;
+  height: 500px;
+  animation: move1 120s infinite;
+  animation-timing-function: linear;
+}
+
+.sq1 {
+  width: 300px;
+  height: 300px;
+  animation: move1 100s infinite;
+  animation-timing-function: linear;
+}

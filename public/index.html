@@ -12,10 +12,33 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-  
+    <style>
+      /* width */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px grey; 
+        border-radius: 10px;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #cdb5ff; 
+        border-radius: 10px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #43d4e2; 
+      }
+      </style>
     <title>React App</title>
   </head>
   <body>
     <div id="root"></div>
   </body>
-</html>
+
+  </html>

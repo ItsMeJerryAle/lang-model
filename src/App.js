@@ -1,15 +1,18 @@
 import React from 'react'
 
-import  { Article, Brand, CTA, Feature, Navbar } from './components'; 
+import  { Brand, CTA, Navbar } from './components'; 
 import  { Blog, Features, Footer, Header, Possibility, WhatLangModel } from './containers'; 
 import './App.css';
 
 const App = () => {
   return (
-    <div className='App'>
-        <div className='gradient__bg'>
-          <Navbar />
+    <div className='App background'>
+        <div className='gradient__bg elements'>
+          <Navbar /> 
           <Header />
+          <div class="square sq1"></div>
+          <div class="square sq2"></div>
+          <div class="square sq3"></div>
         </div>
         <Brand />
         <WhatLangModel />
