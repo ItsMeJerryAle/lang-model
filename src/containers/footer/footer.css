@@ -78,6 +78,8 @@
     flex-direction: column;
 }
 
+
+
 .gpt3__footer-links_div h4 {
     color: #ceb6ff;
     font-family: var(--font-family);
@@ -88,12 +90,15 @@
 }
 
 
-.gpt3__footer-links_div p {
+.gpt3__footer-links_div a {
     color: #ceb6ff;
     font-family: var(--font-family);
     font-size: 14px;
     line-height: 18px;
     font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 0.5rem 0;
     cursor: pointer;
 }
