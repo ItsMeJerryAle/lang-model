@@ -30,6 +30,8 @@ const Features = () => {
             <FeatureSection title={item.title} text={item.text} key={item.title + index}/>
           ))}
       </div>
+
+      
     </div>
   )
 }

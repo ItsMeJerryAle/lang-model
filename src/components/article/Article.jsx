@@ -3,7 +3,7 @@ import './article.css';
 
 
 
-const Article = ({imgUrl, date, title}) => {
+const Article = ({imgUrl, date, title, description}) => {
   return (
     <div className='gpt3__blog-container_article'>
       <div className="gpt3__blog-container_article-image">
@@ -11,10 +11,11 @@ const Article = ({imgUrl, date, title}) => {
       </div>
       <div className="gpt3__blog-container_article-content">
         <div>
-          <p>{date}</p>
-          <h3>{title}</h3>
+          <p className='date'>{date}</p>
+          <h3 className='title'>{title}</h3>
+          <p className='description'>{description}</p>
         </div>
-        <p>Read Full Article</p>
+        <a href='home' className='read-more'>Read Full Article</a>
       </div>
     </div>
   )
