@@ -4,7 +4,7 @@ import FeatureSection from '../../components/featureSection/FeatureSection';
 
 const WhatLangModel = () => {
   return (
-    <div className='gpt3__whatgpt3 section__margin' id="wgpt3">
+    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
       <div className="gpt3__whatgpt3-feature">
         <FeatureSection
           title="What is a Language Model"
