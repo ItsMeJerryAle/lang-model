@@ -14,13 +14,39 @@
     justify-content: center;
     align-items: center;
 }
+
 .gpt3__brand img {
     height: auto;
     width: 200px;
+    position: absolute;
     filter: grayscale(100%);
-    transition: 0.3s ease-in-out;
+    animation: scale-up-rev 1s ease forwards;
+    cursor: pointer;
 }
 
 .gpt3__brand img:hover {
     filter: grayscale(0%);
+    animation: scale-up 1s ease forwards;
+}
+
+@keyframes scale-up {
+    0% {
+        filter: grayscale(100%);
+        width: 200px;
+    }
+    100% {
+        filter: grayscale(0%);
+        width: 250px;
+    }
+}
+
+@keyframes scale-up-rev {
+    0% {
+        filter: grayscale(0%);
+        width: 230px;
+    }
+    100% {
+        filter: grayscale(100%);
+        width: 200px;
+    }
 }

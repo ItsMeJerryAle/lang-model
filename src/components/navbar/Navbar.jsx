@@ -5,7 +5,7 @@ import logo from '../../assets/lang-logo.png';
 
 const Menu = () => (
   <>
-    <p> <a href="#home">Home</a></p>
+    <p><a href="#home">Home</a></p>
     <p><a href="#wgpt3">What is a Language Model?</a></p>
     <p><a href="#possibility">Open AI</a></p>
     <p><a href="#features">Case Studies</a></p>

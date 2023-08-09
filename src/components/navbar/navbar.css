@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+    position: relative;
+    z-index:2;
 }
 
 .gpt3__navbar-links {
@@ -72,7 +74,6 @@
 }
 
 .gpt3__navbar-menu_container {
-    display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
@@ -129,3 +130,46 @@
         display: block;
     }
 }
+
+a {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:before, a:after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: -2px;
+    background: #fff;
+  }
+  
+  a:before {
+    left: 0;
+  }
+  a:after {
+    right: 0;
+    background: #fff;
+    transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  a:hover:before {
+    background: #fff;
+    width: 100%;
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+  
+  a:hover:after {
+    background: transparent;
+    width: 100%;
+    transition: 0s;
+  }
