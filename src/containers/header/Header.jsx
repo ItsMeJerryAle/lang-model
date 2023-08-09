@@ -1,13 +1,13 @@
 import React from 'react'
 import './header.css';
 import people from '../../assets/people.png';
-import ai from '../../assets/sample.png';
+import ai from '../../assets/cyber.png';
 
 const Header = () => {
   return (
     <div className='gpt3__header section__padding' id="home">
       <div className='gpt3__header-content'>
-        <h1 className='gradient__text'>
+        <h1 className='header__effects'>
           Explore beyond the wonders of a Language Model
         </h1>
         <p>
