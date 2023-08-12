@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="gpt3__footer-copyright">
-        <p>Created on August 2023 by zErr</p>
+        <p>Created on 2022 by zErr</p>
       </div>
     </div>
   )
